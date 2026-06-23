@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — REVENANT</title>
+<meta name="description" content="About the artist behind Revenant — blackwork and fine-line tattooing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;1,6..96,400;1,6..96,500&family=Space+Grotesk:wght@300;400;500;700&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a class="nav__mark" href="index.html">Revenant</a>
+  <button class="nav__toggle" aria-label="Menu">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+  </button>
+  <div class="nav__links">
+    <a class="nav__link" href="index.html">Home</a>
+    <a class="nav__link" href="work.html">Work</a>
+    <a class="nav__link" href="about.html">About</a>
+    <a class="nav__link" href="booking.html">Booking</a>
+  </div>
+</nav>
+
+<header class="pagehead wrap">
+  <span class="pagehead__index">№ 02 — The artist</span>
+  <h1 class="pagehead__title">About</h1>
+</header>
+
+<div class="flatline" aria-hidden="true">
+  <svg viewBox="0 0 1200 46" preserveAspectRatio="none">
+    <path class="base" d="M0 23 H520 l14 -16 l16 32 l14 -28 l12 24 l10 -12 H1200"/>
+    <path class="pulse" d="M0 23 H520 l14 -16 l16 32 l14 -28 l12 24 l10 -12 H1200"/>
+  </svg>
+</div>
+
+<section class="section wrap">
+  <div class="about-grid">
+    <div class="portrait r"><span>your portrait here</span></div>
+    <div class="bio r">
+      <span class="eyebrow">Hand behind the machine</span>
+      <h2 class="section-title">I tattoo the things people<br>don't say out loud.</h2>
+      <p>I'm a blackwork and fine-line artist working out of a private studio. I started drawing long before I started tattooing, and most of what I make still begins as a sketch at 2am — heavy black, thin lines, a little bit of rot around the edges.</p>
+      <p>My work sits where <strong>dark illustration meets clean technique.</strong> I'd rather do one deliberate piece than ten rushed ones, so I keep a single chair and a short book. If you bring me an idea, I'll draw it custom — I don't copy other artists' designs.</p>
+      <p>Comfort matters as much as the art. Sterile setup, honest pricing, and a flat answer if your idea won't age well on skin. <strong>What you wear, you wear forever — I treat it that way.</strong></p>
+      <div class="stats">
+        <div><div class="stat__n">8<span style="color:var(--oxblood)">+</span></div><div class="stat__l">Years tattooing</div></div>
+        <div><div class="stat__n">1</div><div class="stat__l">Chair, by appointment</div></div>
+        <div><div class="stat__n">100%</div><div class="stat__l">Custom drawn</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight wrap">
+  <span class="eyebrow r">What I do best</span>
+  <h2 class="section-title r">Specialties</h2>
+  <ul class="specialties r">
+    <li><span class="n">01</span><span class="t">Blackwork</span><span class="d">Solid black, bold shapes, ornamental and illustrative.</span></li>
+    <li><span class="n">02</span><span class="t">Fine-line</span><span class="d">Delicate single-needle linework, micro detail, minimal pieces.</span></li>
+    <li><span class="n">03</span><span class="t">Dotwork &amp; shading</span><span class="d">Stippled gradients and texture for depth without heavy color.</span></li>
+    <li><span class="n">04</span><span class="t">Script &amp; lettering</span><span class="d">Custom hand-lettering, blackletter, quotes and names.</span></li>
+    <li><span class="n">05</span><span class="t">Cover-ups</span><span class="d">Turning old or unwanted work into something you'll keep.</span></li>
+  </ul>
+</section>
+
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div>
+      <div class="footer__mark">Revenant</div>
+      <p class="footer__tag">Blackwork &amp; fine-line tattooing. By appointment only.</p>
+    </div>
+    <div class="footer__col">
+      <h4>Pages</h4>
+      <a href="work.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="booking.html">Booking</a>
+    </div>
+    <div class="footer__col">
+      <h4>Find me</h4>
+      <a href="#">Instagram</a>
+      <a href="#">Email</a>
+      <a href="#">Studio location</a>
+    </div>
+  </div>
+  <div class="wrap footer__legal">© <span id="yr"></span> Revenant Tattoo · 18+ only · Marks that don't wash off.</div>
+</footer>
+
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+<script src="main.js"></script>
+</body>
+</html>
