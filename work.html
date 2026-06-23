@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Work — REVENANT</title>
+<meta name="description" content="Tattoo portfolio: blackwork, fine-line, dotwork and dark illustrative pieces.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;1,6..96,400;1,6..96,500&family=Space+Grotesk:wght@300;400;500;700&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a class="nav__mark" href="index.html">Revenant</a>
+  <button class="nav__toggle" aria-label="Menu">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+  </button>
+  <div class="nav__links">
+    <a class="nav__link" href="index.html">Home</a>
+    <a class="nav__link" href="work.html">Work</a>
+    <a class="nav__link" href="about.html">About</a>
+    <a class="nav__link" href="booking.html">Booking</a>
+  </div>
+</nav>
+
+<header class="pagehead wrap">
+  <span class="pagehead__index">№ 01 — Portfolio</span>
+  <h1 class="pagehead__title">Work</h1>
+</header>
+
+<div class="flatline" aria-hidden="true">
+  <svg viewBox="0 0 1200 46" preserveAspectRatio="none">
+    <path class="base" d="M0 23 H520 l14 -16 l16 32 l14 -28 l12 24 l10 -12 H1200"/>
+    <path class="pulse" d="M0 23 H520 l14 -16 l16 32 l14 -28 l12 24 l10 -12 H1200"/>
+  </svg>
+</div>
+
+<section class="section wrap">
+  <p class="lead r">Healed pieces and fresh work. Tap any piece to open it. To use your own photos, swap the placeholder backgrounds — instructions are in the file.</p>
+
+  <div class="filters r">
+    <button class="filter" data-filter="all" aria-pressed="true">All</button>
+    <button class="filter" data-filter="blackwork" aria-pressed="false">Blackwork</button>
+    <button class="filter" data-filter="fineline" aria-pressed="false">Fine-line</button>
+    <button class="filter" data-filter="dotwork" aria-pressed="false">Dotwork</button>
+    <button class="filter" data-filter="script" aria-pressed="false">Script</button>
+  </div>
+
+  <!-- GALLERY -------------------------------------------------
+       To use a real photo, replace:
+         <div class="tile__img"></div>
+       with:
+         <img class="tile__img" src="img/your-photo.jpg" alt="...">
+       Keep data-style on the <figure> so filtering still works.
+  -->
+  <div class="gallery">
+    <figure class="tile tall" data-style="blackwork">
+      <div class="tile__img"></div><div class="tile__ph">R</div>
+      <figcaption class="tile__meta"><div class="tile__no">№ 001</div><div class="tile__style">Blackwork · Forearm</div></figcaption>
+    </figure>
+    <figure class="tile" data-style="fineline">
+      <div class="tile__img"></div><div class="tile__ph">R</div>
+      <figcaption class="tile__meta"><div class="tile__no">№ 002</div><div class="tile__style">Fine-line · Sternum</div></figcaption>
+    </figure>
+    <figure class="tile" data-style="dotwork">
+      <div class="tile__img"></div><div class="tile__ph">R</div>
+      <figcaption class="tile__meta"><div class="tile__no">№ 003</div><div class="tile__style">Dotwork · Spine</div></figcaption>
+    </figure>
+    <figure class="tile wide" data-style="blackwork">
+      <div class="tile__img"></div><div class="tile__ph">R</div>
+      <figcaption class="tile__meta"><div class="tile__no">№ 004</div><div class="tile__style">Blackwork · Full sleeve</div></figcaption>
+    </figure>
+    <figure class="tile" data-style="script">
+      <div class="tile__img"></div><div class="tile__ph">R</div>
+      <figcaption class="tile__meta"><div class="tile__no">№ 005</div><div class="tile__style">Script · Collarbone</div></figcaption>
+    </figure>
+    <figure class="tile tall" data-style="fineline">
+      <div class="tile__img"></div><div class="tile__ph">R</div>
+      <figcaption class="tile__meta"><div class="tile__no">№ 006</div><div class="tile__style">Fine-line · Thigh</div></figcaption>
+    </figure>
+    <figure class="tile" data-style="dotwork">
+      <div class="tile__img"></div><div class="tile__ph">R</div>
+      <figcaption class="tile__meta"><div class="tile__no">№ 007</div><div class="tile__style">Dotwork · Hand</div></figcaption>
+    </figure>
+    <figure class="tile" data-style="blackwork">
+      <div class="tile__img"></div><div class="tile__ph">R</div>
+      <figcaption class="tile__meta"><div class="tile__no">№ 008</div><div class="tile__style">Blackwork · Calf</div></figcaption>
+    </figure>
+    <figure class="tile" data-style="script">
+      <div class="tile__img"></div><div class="tile__ph">R</div>
+      <figcaption class="tile__meta"><div class="tile__no">№ 009</div><div class="tile__style">Script · Ribcage</div></figcaption>
+    </figure>
+    <figure class="tile" data-style="fineline">
+      <div class="tile__img"></div><div class="tile__ph">R</div>
+      <figcaption class="tile__meta"><div class="tile__no">№ 010</div><div class="tile__style">Fine-line · Ankle</div></figcaption>
+    </figure>
+    <figure class="tile wide" data-style="dotwork">
+      <div class="tile__img"></div><div class="tile__ph">R</div>
+      <figcaption class="tile__meta"><div class="tile__no">№ 011</div><div class="tile__style">Dotwork · Back panel</div></figcaption>
+    </figure>
+    <figure class="tile" data-style="blackwork">
+      <div class="tile__img"></div><div class="tile__ph">R</div>
+      <figcaption class="tile__meta"><div class="tile__no">№ 012</div><div class="tile__style">Blackwork · Bicep</div></figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- lightbox -->
+<div class="lightbox" aria-hidden="true">
+  <button class="lightbox__close" aria-label="Close">×</button>
+  <div class="lightbox__inner">
+    <div class="tile__img"></div>
+    <div class="lightbox__cap"></div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div>
+      <div class="footer__mark">Revenant</div>
+      <p class="footer__tag">Blackwork &amp; fine-line tattooing. By appointment only.</p>
+    </div>
+    <div class="footer__col">
+      <h4>Pages</h4>
+      <a href="work.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="booking.html">Booking</a>
+    </div>
+    <div class="footer__col">
+      <h4>Find me</h4>
+      <a href="#">Instagram</a>
+      <a href="#">Email</a>
+      <a href="#">Studio location</a>
+    </div>
+  </div>
+  <div class="wrap footer__legal">© <span id="yr"></span> Revenant Tattoo · 18+ only · Marks that don't wash off.</div>
+</footer>
+
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+<script src="main.js"></script>
+</body>
+</html>
